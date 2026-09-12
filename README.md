@@ -1,78 +1,64 @@
-# Air_Quality_Prediction
-Machine Learning project for predicting Air Quality Index (AQI) using air pollution data.
-# Air Quality Index (AQI) Prediction Using Machine Learning
+# 🌬️ Air Quality Index (AQI) Prediction
 
-## Project Overview
+A Machine Learning project focused on predicting the **Air Quality Index (AQI)** using historical air pollution data from various cities across India. Includes an interactive **Streamlit Web Application** for real-time predictions.
 
-This project focuses on predicting the Air Quality Index (AQI) using Machine Learning techniques.
+🌐 **Live Demo:** [Launch Air Quality Prediction App](https://airqualityprediction-a7ccrwxvnqrhdts93havbt.streamlit.app/)
 
-The dataset contains air pollution measurements from different cities in India.
+---
 
-## Dataset
+## 📌 Project Overview
 
-The dataset contains the following important features:
+Air pollution is a major environmental issue affecting public health. This project analyzes atmospheric pollutant levels and builds predictive Machine Learning models to accurately forecast the AQI.
 
-- PM2.5
-- PM10
-- NO
-- NO2
-- NOx
-- NH3
-- CO
-- SO2
-- O3
-- Benzene
-- Toluene
-- Xylene
+### Key Features
+- **Exploratory Data Analysis (EDA)** and pollutant trend visualizations.
+- Preprocessing pipeline handling missing values and feature scaling.
+- Evaluation and comparison of multiple regression algorithms.
+- Interactive Streamlit dashboard for real-time user input and AQI estimation.
 
-Target variable:
+---
 
-- AQI
+## 📊 Dataset Parameters
 
-## Technologies Used
+The dataset is sourced from Kaggle's [Air Quality Data in India](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india).
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
+| Feature Category | Atmospheric Pollutants & Indicators |
+| :--- | :--- |
+| **Particulate Matter** | PM2.5, PM10 |
+| **Inorganic Gases** | NO, NO2, NOx, NH3, CO, SO2, O3 |
+| **Volatile Organic Compounds (VOCs)** | Benzene, Toluene, Xylene |
+| **Target Variable** | **AQI** (Air Quality Index) |
 
-## Machine Learning Models
+---
 
-The following models were implemented:
+## 🤖 Machine Learning Models & Metrics
 
-1. Linear Regression
-2. Decision Tree Regressor
-3. Random Forest Regressor
+The project implements and compares the following algorithms:
+- **Linear Regression**
+- **Decision Tree Regressor**
+- **Random Forest Regressor**
 
-## Project Workflow
+### Performance Metrics
+- **MAE** (Mean Absolute Error)
+- **RMSE** (Root Mean Squared Error)
+- **R² Score**
 
-1. Data Collection
-2. Data Loading
-3. Data Cleaning
-4. Missing Value Handling
-5. Exploratory Data Analysis
-6. Data Visualization
-7. Correlation Analysis
-8. Feature Selection
-9. Train-Test Split
-10. Model Training
-11. Model Evaluation
-12. AQI Prediction
+---
 
-## Evaluation Metrics
+## 🛠️ Technologies Used
 
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R² Score
+- **Language:** Python
+- **Data Manipulation:** Pandas, NumPy
+- **Data Visualization:** Matplotlib, Seaborn
+- **Machine Learning:** Scikit-Learn
+- **Web Framework:** Streamlit
+- **Environment:** Jupyter Notebook
 
-## Dataset Source
+---
 
-Air Quality Data in India:
-https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india
+## 💻 Local Setup & Installation
 
-## Author
-
-Harsh Kumar
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/harshkumar6581/Air_Quality_Prediction.git](https://github.com/harshkumar6581/Air_Quality_Prediction.git)
+   cd Air_Quality_Prediction
